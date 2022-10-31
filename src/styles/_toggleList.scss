@@ -1,0 +1,39 @@
+nav{
+    min-height: 10vh;
+    display: flex;
+    width: 100vh;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+   
+    h2{
+        color: white;
+        text-shadow: 10px 10px 1px 1px white;
+    }
+   
+
+    button {
+        background-color: transparent;
+        cursor: pointer;
+        padding: 0.7rem;
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+        border: 2px solid rgba(128, 128, 128, 0.281);
+        border-radius: 1rem;
+        font-weight: 100;
+
+        &:hover{
+            background-color: red;
+            color:white;
+        }
+    }
+    span{
+        font-family: 'Permanent Marker', cursive;
+    }
+
+}
+
+@media only screen and (max-width:765px){
+    nav{
+        width: 100%;
+    }
+}
